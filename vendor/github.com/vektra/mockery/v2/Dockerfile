@@ -1,4 +1,4 @@
-FROM golang:1.16-alpine as builder
+FROM golang:1.21.6-alpine as builder
 
 COPY mockery /usr/local/bin
 
